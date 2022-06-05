@@ -1,0 +1,157 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "busNum",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "seat",
+						"type": "uint256"
+					}
+				],
+				"name": "Reservation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "cancelReservation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getReservation",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getReservedBus",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getReservedSeat",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "reserv",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "busNum",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "seat_num",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Student reservation storage",
+			"kind": "dev",
+			"methods": {},
+			"title": "Student",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Student.sol": "Student"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Database.sol": {
+			"keccak256": "0x57b225d9cab5844b0a5df0ea2306b94f9e5afe7245b4bcedae51aaddedf8836d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a6548e173f89e5591eece508f50e2924b56b9eb58678dd08e64d42bfea77c293",
+				"dweb:/ipfs/QmYY7MPkMqvZg1uL8RSE7cPJDygLMzuTUzsf1koaAjeoeh"
+			]
+		},
+		"contracts/FindArray.sol": {
+			"keccak256": "0x86b4e643dd428385538a5a8a3c8ad5591fd640ca517e8bd975bb6e18ca34b1fa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://19b927ee544bda091c50e6c310115f5b9537ad3535e10489c9e29d5fd71134ab",
+				"dweb:/ipfs/QmP8YyL84xi3zGAgt5hFSdELKdJi1h2zwh4ELWNh5SbVTT"
+			]
+		},
+		"contracts/Student.sol": {
+			"keccak256": "0xcb98fcf5de77c4fffb4d360946aee821f55ec5f5c8623c466b3ed5df6db69a89",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f1f57ccd2a10d585801c1df1509518d0083d2f9aacd581b9b8e1d2285bfa1171",
+				"dweb:/ipfs/QmXePsKGQrMBoHFuMq3CMpRjzYZPC6iaoNQoNvyN45n1GZ"
+			]
+		}
+	},
+	"version": 1
+}
