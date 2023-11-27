@@ -1,26 +1,9 @@
-REMIX DEFAULT WORKSPACE
+# 한경대학교 블록체인 실습 과제
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created
-iii. There are no files existing in the File Explorer
+## 개요
+버스 예약을 솔리디티로 구현했음. 
 
-This workspace contains 3 directories:
-
-1. 'contracts': Holds three contracts with different complexity level, denoted with number prefix in file name.
-2. 'scripts': Holds two scripts to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract
-
-SCRIPTS
-
-The 'scripts' folder contains two example async/await scripts for deploying the 'Storage' contract.
-For the deployment of any other contract, 'contractName' and 'constructorArgs' should be updated (along with other code if required). 
-
-Also, there is a script containing some unit tests for Storage contract inside tests directory.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, 'require' statement is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE will be shown.'
+## 소감
+- smart contract를 제대로 이해하지 못하고 도메인을 설정했음...
+- 사실 버스에 대한 정보는 중앙 서버에서 관리해야 했고 P2P가 불가능한 도메인라고 판단됨.
+- 추상적인 수업 내용을 직접 끄적이면서 이해할 수 있었음.
